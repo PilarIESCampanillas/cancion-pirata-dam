@@ -1,0 +1,19 @@
+/******* HOJA DE ESTILO DE LA WEB DE LA CANCIÓN DEL PIRATA ********/
+
+        @font-face {
+                font-family: pirata;/* el nombre que yo quiera */
+                src: url("../fonts/AlexBrush-Regular.ttf"); /* donde está el archivo */
+        }
+        body {background-image: url("../images/background.jpg");
+              background-size: 600px; /* puedo redimensionar el tamaño del pattern */
+             /* background-repeat:repeat-y; *//* puedo controlar la repetición */
+              padding:0;
+              margin:0;}
+
+        #container {background-color:rgba(255, 255, 255, 0.89);
+                    width:80%;
+                    margin:auto;
+                    padding:10px;
+                    text-align:center;
+                    font-family: pirata; /* coloco el tipo de fuente nombrado por mí */
+                    font-size: 2em;}
